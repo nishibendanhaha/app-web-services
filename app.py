@@ -118,7 +118,7 @@ def test_clip_intrieval():
     original_images = []
     images = []
     for fname in os.listdir(directory_name):
-        print(fname)
+        # print(fname)
         if fname.endswith(".png") or fname.endswith(".jpg"):
             image = Image.open(os.path.join(directory_name, fname)).convert("RGB")
             original_images.append(image)
@@ -140,7 +140,7 @@ def test_clip_intrieval():
     image_features /= image_features.norm(dim=-1, keepdim=True)
     text_features /= text_features.norm(dim=-1, keepdim=True)
     similarity = text_features.cpu().numpy() @ image_features.cpu().numpy().T
-    print(similarity)
+    print("clip ViT-B/32 model load successfully !")
 
 
 @app.route('/CLIP_retri', methods=["POST"])
