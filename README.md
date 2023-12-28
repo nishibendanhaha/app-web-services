@@ -10,5 +10,5 @@ react前端UI界面代码见另一个repo https://github.com/nishibendanhaha/app
 ![image](https://github.com/nishibendanhaha/app-web-services/assets/75249365/10353860-dd6b-4c88-b879-0baea51bd4be)
 输出模型加载成功信息，则表示模型预测服务已经开启
 ## 使用案例
-1.使用postman模拟post请求测试预测服务
+1. 参考 https://zhuanlan.zhihu.com/p/674938131?
 
