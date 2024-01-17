@@ -1,4 +1,4 @@
-pretrain_path = '/data/torch/checkpoints/resnet50-19c8e357.pth'
+pretrain_path = '/Users/huangtehui/PycharmProjects/re-id/pretrained/market1501_AGW.pth'
 
 model_name = 'resnet50_nl'
 gen_mean_pool = 'on'
